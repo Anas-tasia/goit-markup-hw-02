@@ -48,8 +48,8 @@ color: var(--logo-link-color);
     letter-spacing: 0.02em;
 }
 
-.link-item:hover,
-.link-item:focus{
+.link-navigation-item:hover,
+.link-navigation-item:focus{
     color: var(--link-focus);
 }
 
@@ -68,7 +68,6 @@ text-decoration: underline  #404BBF;
     text-decoration: none;
     color: var(--black-color-text);
     font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -104,26 +103,19 @@ height: 48px;
 width: 116px;
 left: 93px;
 border-radius: 4px;
-background-color: #F4F4FD;
-}
-
-.button-text{
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
+background-color: #F4F4FD;
 color: var(--blue-color-button);
-}
-
-.main-button:hover,
-.main-button:focus{
-background: #404BBF;
 }
 
 .button-item:hover,
 .button-item:focus{ 
 background-color: #404BBF;
+color: var(--white-color-text);
 }
 
 .section{
@@ -134,7 +126,7 @@ background-color: #404BBF;
     list-style: none;
 }
 
-.button-title{
+.hero-title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -142,7 +134,7 @@ background-color: #404BBF;
 }
 
 .features-title{
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -181,6 +173,7 @@ background-color: #404BBF;
 }
 
 .project-title{
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -194,14 +187,14 @@ color: var(--black-color-text);
 }
 
 .team-name{
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: var(--black-color-text);
 }
 
-.profession-text{
+.team-profession{
     letter-spacing: 0.02em;
     line-height: 1.5;    
     color: var(--black-color-text);
